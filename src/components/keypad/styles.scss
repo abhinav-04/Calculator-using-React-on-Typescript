@@ -1,0 +1,18 @@
+.keypad-container {
+  height: 70%;
+  display: flex;
+
+  .digits {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 8px;
+  }
+
+  .binary-ops {
+    width: 25%;
+    display: grid;
+    grid-auto-flow: row;
+    padding: 0 8px;
+  }
+}

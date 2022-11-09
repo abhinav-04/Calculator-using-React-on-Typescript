@@ -1,0 +1,12 @@
+.display-container {
+  color: white;
+  height: 20%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+  h1 {
+    font-size: 64px;
+    font-weight: 500;
+  }
+}
